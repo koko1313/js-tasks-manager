@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+    <input type="hidden" id="editId">
+    <input id="taskTitle" type="text">
+    <select id="prioritySelect">
+        <option value="1">Нисък</option>
+        <option value="2">Среден</option>
+        <option value="3">Висок</option>
+    </select>
+    <button id="saveButton">Запази</button>
+    <button id="editButton">Редактирай</button>
+
+    <h1>Задачи</h1>
+    <ul id="tasksList">
+    </ul>
+
+    <button id="finalizeSelectedTasks">Завърши</button>
+    <button id="openSelectedTasks">Отвори</button>
+    <button id="deleteSelectedTasks">Изтрий</button>
+    <button id="archiveSelectedTasks">Архивирай</button>
+
+    <h1>Архивирани задачи</h1>
+    <ul id="archiveTasksList">
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
